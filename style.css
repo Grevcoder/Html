@@ -1,0 +1,34 @@
+body{
+text-align: center;
+}
+h1
+{
+    text-transform:capitalize;
+    color: brown;
+    text-shadow:2px 2px black;
+}
+a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: green;
+}
+#p2,#p4
+{
+    background-color: aquamarine;
+}
+
+#p1
+{
+    letter-spacing: 5px;
+    line-height: 1.8;
+}
+
+table
+{
+    text-align: center;
+}
+th
+{
+    text-transform: capitalize;
+}
