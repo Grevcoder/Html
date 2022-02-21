@@ -1,0 +1,83 @@
+<htm>
+    <head>
+        <title>Employee Details</title>
+        <h1>Employee Interests Survey Form</h1>
+    </head>
+    <body>
+        <form>
+<table>
+    <tr>
+   <td> <label for="empname">Enter your name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" id="emp" name="empname">
+    </td>
+    </tr>
+    
+    <tr>
+        
+        <td>
+            <br>
+       <label for="department">Enter your department</label>
+        <input type="text" id="department" name="department">
+        </td>
+        </tr>
+        <tr>
+        
+            <td>
+                <br>
+           <label for="tellus">Tell us something about yourself </label>
+            <textarea id="tellus" name="tellus"></textarea>
+            </td>
+            </tr>
+            <tr>
+        
+                <td>
+                    <br>
+                <label for="rtype">Do you exercise at home?</label>
+
+               <input type="radio" id=rtype1 name="yesno">
+               <label for="rtype1">Yes</label>
+               <input type="radio" id=rtype2 name="yesno">
+               <label for="rtype2">No</label>
+               </td>
+               </tr>
+               <tr>
+                   <td><br><label for="tellus">How do you like to read about your favorite topics? </label>
+
+                   </td>
+               </tr>
+               
+               <tr>
+                   <td>
+                    <br><input type="checkbox" id="books" name="books">
+                    <label for="books">Books</label>
+                    <input type="checkbox" id="online" name="onlineresources">
+                    <label for="onlineresources">Onlineresources</label>
+                    <input type="checkbox" id="apps" name="phoneapps">
+                    <label for="phoneapps">Phone Apps</label>
+                    <input type="checkbox" id="magazines" name="magazines">
+                    <label for="magazines">Magazines</label>
+                    </td>
+               </tr>
+               <tr>
+              <td><br><label for="movies">What genre of movies do you like? </label>
+                  <select>
+                      <option>Comedy</option>
+                      <option>Family</option>
+                      <option>action</option>
+
+                  </select>
+                </td>
+               
+               </tr>
+
+                   
+                   </td>
+               </tr>        
+</table>
+<br>
+<input type="button" name="submit" id="submit" value="submit" onclick="alert('Submitted')">
+<input type="reset" name="Reset" id="Reset" value="Reset" >
+
+        </form>
+    </body>
+</htm>
