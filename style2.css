@@ -1,0 +1,67 @@
+
+.tabbed-area{
+  min-height: 178px;
+  position: relative;
+  width: 100%;
+}
+
+.tabbed-area > div {
+  display: inline;
+}
+.tabbed-area > div > a:hover
+{
+  color: aliceblue;
+}
+
+.tabbed-area > div > a {  
+  position: relative;  
+  text-decoration: none;
+  color: rgb(52, 18, 177);
+  background: white;
+  display: block;
+  float: left;
+  padding: 5px 10px;
+  border: 2px solid #ccc;
+  border-bottom: 1px solid white;  
+}
+
+
+.tabbed-area > div:not(:target) > a {
+  border-bottom: 0;
+  background: rgb(11, 199, 83);
+}
+
+.tabbed-area > div:target > a
+{
+  background: rgb(172, 5, 5);
+}
+
+.tabbed-area > div:target > div
+{
+  position: absolute;
+  z-index: 1;
+}
+
+.tabbed-area > div > div {
+  background: white;
+  z-index: -2;
+  left: 0;
+  top: 30px;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  position: absolute;
+}
+#b1
+{
+  background-color:blueviolet;
+}
+#b2
+{
+  background-color: aqua;
+}
+#b3
+{
+  background-color:rgb(118, 118, 219);
+}
