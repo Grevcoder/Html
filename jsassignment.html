@@ -1,0 +1,60 @@
+<html>
+    
+        <head>   
+            <head>
+                <link rel="stylesheet" href="js.css" />
+              </head>
+        </head>
+
+    <body>
+        <h1 style="margin-left: auto;">Number Operations</h1>
+        <div>
+        First Number<input type="number" id="fno">
+        <button id="add" onclick="add()">+</button>
+        <button id="sub" onclick="sub()">-</button>
+        </div>
+        <div>
+        <br><br>
+        <div>
+       Second Number <input type="number" id="sno">
+        <button id="mult" onclick="multi()">*</button>
+        <button id="div" onclick="div()">/</button>
+       </div>
+       <br>
+      Result <input type="number" id="result">
+      <!--<button type="reset"></button> -->
+
+    </body>
+    </html>
+
+    <script>
+        function add()
+        {
+            var c=Number(document.getElementById("fno").value)+Number(document.getElementById("sno").value);
+            document.getElementById("result").value=c;
+
+        }
+
+        function sub()
+        {
+            var c=Number(document.getElementById("fno").value)-Number(document.getElementById("sno").value);
+            document.getElementById("result").value=c;
+
+        }
+        function multi()
+        {
+            var c=Number(document.getElementById("fno").value)*Number(document.getElementById("sno").value);
+            document.getElementById("result").value=c;
+
+        }
+
+        function div()
+        
+        {
+            var c=Number(document.getElementById("fno").value)/Number(document.getElementById("sno").value);
+            document.getElementById("result").value=c;
+
+        }
+        
+    </script>
+</html>
