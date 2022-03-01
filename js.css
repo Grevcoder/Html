@@ -1,0 +1,47 @@
+body
+{
+background-color:yellow;
+padding-left:500px;
+}
+.button
+{
+    width: 100px;
+    height: 100px;
+    padding-top: 500px;
+    background-color: red;
+}
+#fno
+{
+    margin-left: 30px;
+}
+#sno
+{
+    margin-left: 5px;   
+}
+#result
+{
+    margin-left: 65px;
+}
+#add
+{
+    background-color:brown;
+    color: aliceblue;
+}
+
+#sub
+{
+    background-color:blueviolet;
+    color: aliceblue;
+}
+
+#mult
+{
+    background-color:rebeccapurple;
+    color: aliceblue;
+}
+
+#div
+{
+    background-color:black;
+    color: aliceblue;
+}
