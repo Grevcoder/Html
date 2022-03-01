@@ -1,0 +1,57 @@
+
+.fontred
+{
+    color: red;
+}
+#tableback
+{
+background-color: blueviolet;
+}
+
+ol,ul
+{
+    color:violet;
+    text-transform: lowercase;
+    font-style: italic;
+}
+div p
+{
+    color: bisque;
+}
+div+p
+{
+    color:goldenrod;
+}
+div ~p
+{
+    background-color: blueviolet;
+}
+table
+{
+    margin: auto;
+}
+
+div.fontstyle
+{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-weight:800;
+    font-variant: small-caps;
+    font-size:larger;
+}
+#background
+{
+
+    color:black;
+    background-color: rgba(red, green, blue, alpha);
+    background-image:url();
+    border: 5px solid blueviolet ;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-left: 150px;
+    padding-right: 12px
+    ;
+    
+    
+}
