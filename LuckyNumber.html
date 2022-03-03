@@ -3,7 +3,7 @@
 <head></head>
 <body>
     <h3><b>Lucky Number</b></h3>  
-    <div style="padding: 10px; background: lightgray; border-radius: 1rem; width: 15rem;height: 3.5rem;">
+    <div style="padding: 30px; background: lightgray; border-radius: 1rem; width: 15rem;height: 3.5rem;">
         <label for="lucky">Guess my lucky number:</label>
         <input type="number" name="luckyNumber" id="luckyNumber">    
         <button name="Check" id="btnValidate" onclick="checkButton()">Check</button>     
@@ -21,7 +21,7 @@
     function checkButton() {
         let inputNumber = Number(document.getElementById("luckyNumber").value);
 
-        if (inputNumber>0 && inputNumber <= 10) {
+        if (inputNumber==8) {
             message = 'Great!! You took ' + counter + ' attempts to get it right';
             document.getElementById("luckyNumber").value ='';
             
