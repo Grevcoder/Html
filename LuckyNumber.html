@@ -1,0 +1,36 @@
+<html>
+
+<head></head>
+<body>
+    <h3><b>Lucky Number</b></h3>  
+    <div style="padding: 10px; background: lightgray; border-radius: 1rem; width: 15rem;height: 3.5rem;">
+        <label for="lucky">Guess my lucky number:</label>
+        <input type="number" name="luckyNumber" id="luckyNumber">    
+        <button name="Check" id="btnValidate" onclick="checkButton()">Check</button>     
+        <div id="message" style="font-style: italic;" ></div>
+    </div>
+    
+</body>
+
+</html>
+
+<script>
+    let counter = 1;
+    let message;
+
+    function checkButton() {
+        let inputNumber = Number(document.getElementById("luckyNumber").value);
+
+        if (inputNumber>0 && inputNumber <= 10) {
+            message = 'Great!! You took ' + counter + ' attempts to get it right';
+            document.getElementById("luckyNumber").value ='';
+            
+        }
+        else {
+            counter++;
+            message = 'Not really! Give it another try';
+        }
+
+        document.getElementById("message").innerHTML = message;
+    }
+</script>
