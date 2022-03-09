@@ -1,0 +1,37 @@
+<html>
+<head>
+    <link rel="stylesheet" href="Timesheet.css">
+    <script src="Timesheet.js"></script>
+    <title></title>
+</head>
+<body>
+    <h2>Employee Details</h2>
+    <form type=" " method="post" action="DisplayTimesheet.html">
+        <div class="main" >
+            <div class="submain">
+            <label for="employeeName">Name: </label>
+            <input type="text" name="employeeName" id="employeeName" >
+            </div>
+            <div class="submain">
+            <label for="employeeId">Emp Id: </label>
+            <input type="text" name="employeeId" id="employeeId" >
+            </div>
+            <div class="submain">
+            <label for="joiningDate">Joining Date: </label>
+            <input type="date" name="joiningDate" id="joiningDate" >
+            </div>
+            <div class="submain">
+            <label for="hoursWorked">Hours Worked: </label>
+            <input type="number" name="hoursWorked" id="hoursWorked" required>
+            </div>
+            <div class="submain">
+            <label for="Designation">Designantion: </label>
+            <input type="text" name="Designation" id="designation">
+            </div>
+            <button type="submit" name="submit" value="submit" onclick="getEmployeeTimeSheet()">Submit</Button>
+        </div>
+    </form>
+    
+</body>
+
+</html>
