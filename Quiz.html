@@ -1,0 +1,45 @@
+<html>
+
+<head>
+
+<script src="Quiz.js"></script>
+<link rel="stylesheet" href="Quiz.css">
+
+</head>
+
+<body onload="loadQuestionAndOptions()">
+     
+    <!--one main div for question and answers-->
+    <div id="main">
+        <!--sub div for question-->
+        <div id="subdiv">
+            <label for="firstQuestion" id="question"></label>
+        </div>
+        <!--div for Answers and radio button-->
+        <div id="divans">
+            <input type="radio" id="radio_1" name="options" onclick="enableNext()"  >
+            <label for="html" id="option1"></label>
+        </div>
+        <div class="divans1">
+            <input type="radio" id="radio_2" value="" name="options" onclick="enableNext()" >
+            <label for="html" id="option2"></label>
+        </div>
+
+        <div class="divans1">
+            <input type="radio" id="radio_3" value=""  name="options"  onclick="enableNext()" >
+            <label for="html" id="option3"></label>
+        </div>
+        <div class="divans1">
+            <input type="radio" id="radio_4" value="" name="options" onclick="enableNext()"  >
+            <label for="html" id="option4"></label>
+
+        </div>
+        <!--one button for answer-->
+        <button type="submit" id="next" onclick="next()"> Next></button>
+
+
+    </div>
+  <div id="result"></div>
+</body>
+
+</html>
